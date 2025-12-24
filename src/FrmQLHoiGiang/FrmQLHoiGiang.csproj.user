@@ -13,6 +13,9 @@
     <Compile Update="Controls\UcGiangVien.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Controls\UcHoiGiang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="D:\Desktop\LUu chinh\UcHoiGiang.cs">
       <SubType>UserControl</SubType>
     </Compile>
