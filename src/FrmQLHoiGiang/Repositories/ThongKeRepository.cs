@@ -29,8 +29,8 @@ public class ThongKeRepository : RepositoryBase
             SELECT k.TenKhoa, SUM(l.SoTiet) AS TongTiet
             FROM LichGiang l
             INNER JOIN GiangVien gv ON l.GiangVienId = gv.GiangVienId
-            INNER JOIN DonVi d ON gv.DonViId = d.DonViId
-            INNER JOIN Khoa k ON d.KhoaId = k.KhoaId
+            LEFT JOIN DonVi d ON ISNULL(l.DonViId, gv.DonViId) = d.DonViId
+            INNER JOIN Khoa k ON k.KhoaId = ISNULL(d.KhoaId, gv.KhoaId)
             WHERE l.NamHoc = @NamHoc OR l.NamHoc LIKE @NamHocLike
             GROUP BY k.TenKhoa
             ORDER BY k.TenKhoa
@@ -69,8 +69,9 @@ public class ThongKeRepository : RepositoryBase
                    SUM(CASE WHEN kq.XepLoai NOT IN (N'Nhat', N'Nhi', N'Ba') THEN 1 ELSE 0 END) AS KhuyenKhich
             FROM KetQuaHoiGiang kq
             INNER JOIN BaiHoiGiang bhg ON kq.BaiHoiGiangId = bhg.BaiHoiGiangId
-            INNER JOIN DonVi d ON bhg.DonViId = d.DonViId
-            INNER JOIN Khoa k ON d.KhoaId = k.KhoaId
+            INNER JOIN GiangVien gv ON bhg.GiangVienId = gv.GiangVienId
+            LEFT JOIN DonVi d ON ISNULL(bhg.DonViId, gv.DonViId) = d.DonViId
+            INNER JOIN Khoa k ON k.KhoaId = ISNULL(d.KhoaId, gv.KhoaId)
             GROUP BY k.TenKhoa
             """;
         return Query(sql, reader => new GiaiThuongTheoKhoaDto

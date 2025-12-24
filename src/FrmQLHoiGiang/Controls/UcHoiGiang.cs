@@ -349,6 +349,14 @@ public partial class UcHoiGiang : UserControl
             return;
         }
 
+        var baiHoiGiangId = Convert.ToInt32(cboHoiDongBai.SelectedValue);
+        var baiHoiGiang = _hoiGiang.FirstOrDefault(b => b.BaiHoiGiangId == baiHoiGiangId);
+        if (baiHoiGiang == null)
+        {
+            ShowMessage("Khong tim thay bai hoi giang.");
+            return;
+        }
+
         var selections = new[]
         {
             (Combo:cboThanhVien1, Role:RoleChuTich),
@@ -365,6 +373,12 @@ public partial class UcHoiGiang : UserControl
         }
 
         var selectedIds = selections.Select(x => (int)x.Combo.SelectedValue!).ToList();
+        if (selectedIds.Contains(baiHoiGiang.GiangVienId))
+        {
+            ShowMessage("Giang vien dang hoi giang khong duoc tham gia hoi dong.");
+            return;
+        }
+
         if (selectedIds.Distinct().Count() != selectedIds.Count)
         {
             ShowMessage("Moi thanh vien chi duoc chon mot lan.");
@@ -373,7 +387,7 @@ public partial class UcHoiGiang : UserControl
 
         var hoiDong = new HoiDong
         {
-            BaiHoiGiangId = Convert.ToInt32(cboHoiDongBai.SelectedValue),
+            BaiHoiGiangId = baiHoiGiangId,
             TenHoiDong = txtTenHoiDong.Text.Trim(),
             NgayLap = DateTime.Now
         };
