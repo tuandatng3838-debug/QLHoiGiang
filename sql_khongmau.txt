@@ -1,0 +1,244 @@
+IF DB_ID('QLHoiGiang') IS NULL
+BEGIN
+    CREATE DATABASE QLHoiGiang;
+END
+GO
+USE QLHoiGiang;
+GO
+
+--------------------------------------------------------------------------------
+-- 1. BẢNG DANH MỤC & NGHIỆP VỤ
+--------------------------------------------------------------------------------
+IF OBJECT_ID('dbo.ThanhVienHoiDong', 'U') IS NOT NULL DROP TABLE dbo.ThanhVienHoiDong;
+IF OBJECT_ID('dbo.HoiDong', 'U') IS NOT NULL DROP TABLE dbo.HoiDong;
+IF OBJECT_ID('dbo.KetQuaThanhPhan', 'U') IS NOT NULL DROP TABLE dbo.KetQuaThanhPhan;
+IF OBJECT_ID('dbo.KetQuaHoiGiang', 'U') IS NOT NULL DROP TABLE dbo.KetQuaHoiGiang;
+IF OBJECT_ID('dbo.BaiHoiGiang', 'U') IS NOT NULL DROP TABLE dbo.BaiHoiGiang;
+IF OBJECT_ID('dbo.LichGiang', 'U') IS NOT NULL DROP TABLE dbo.LichGiang;
+IF OBJECT_ID('dbo.SangKien', 'U') IS NOT NULL DROP TABLE dbo.SangKien;
+IF OBJECT_ID('dbo.GiangVien', 'U') IS NOT NULL DROP TABLE dbo.GiangVien;
+IF OBJECT_ID('dbo.HocPhan', 'U') IS NOT NULL DROP TABLE dbo.HocPhan;
+IF OBJECT_ID('dbo.DonVi', 'U') IS NOT NULL DROP TABLE dbo.DonVi;
+IF OBJECT_ID('dbo.Khoa', 'U') IS NOT NULL DROP TABLE dbo.Khoa;
+IF OBJECT_ID('dbo.HocHam', 'U') IS NOT NULL DROP TABLE dbo.HocHam;
+IF OBJECT_ID('dbo.HocVi', 'U') IS NOT NULL DROP TABLE dbo.HocVi;
+IF OBJECT_ID('dbo.TrinhDoChuyenMon', 'U') IS NOT NULL DROP TABLE dbo.TrinhDoChuyenMon;
+IF OBJECT_ID('dbo.TrinhDoLLCT', 'U') IS NOT NULL DROP TABLE dbo.TrinhDoLLCT;
+IF OBJECT_ID('dbo.ChucDanhGiangDay', 'U') IS NOT NULL DROP TABLE dbo.ChucDanhGiangDay;
+IF OBJECT_ID('dbo.CapBac', 'U') IS NOT NULL DROP TABLE dbo.CapBac;
+IF OBJECT_ID('dbo.NguoiDung', 'U') IS NOT NULL DROP TABLE dbo.NguoiDung;
+GO
+
+CREATE TABLE Khoa (
+    KhoaId INT IDENTITY PRIMARY KEY,
+    TenKhoa NVARCHAR(100) NOT NULL UNIQUE
+);
+
+CREATE TABLE DonVi (
+    DonViId INT IDENTITY PRIMARY KEY,
+    TenDonVi NVARCHAR(100) NOT NULL,
+    KhoaId INT NOT NULL REFERENCES Khoa(KhoaId),
+    UNIQUE (TenDonVi, KhoaId)
+);
+
+CREATE TABLE HocHam (
+    HocHamId INT IDENTITY PRIMARY KEY,
+    TenHocHam NVARCHAR(50) NOT NULL UNIQUE
+);
+
+CREATE TABLE HocVi (
+    HocViId INT IDENTITY PRIMARY KEY,
+    TenHocVi NVARCHAR(50) NOT NULL UNIQUE
+);
+
+CREATE TABLE TrinhDoChuyenMon (
+    TrinhDoCMId INT IDENTITY PRIMARY KEY,
+    TenTrinhDo NVARCHAR(100) NOT NULL UNIQUE
+);
+
+CREATE TABLE TrinhDoLLCT (
+    TrinhDoLLCTId INT IDENTITY PRIMARY KEY,
+    TenTrinhDo NVARCHAR(100) NOT NULL UNIQUE
+);
+
+CREATE TABLE ChucDanhGiangDay (
+    ChucDanhId INT IDENTITY PRIMARY KEY,
+    TenChucDanh NVARCHAR(50) NOT NULL UNIQUE
+);
+
+CREATE TABLE CapBac (
+    CapBacId INT IDENTITY PRIMARY KEY,
+    TenCapBac NVARCHAR(50) NOT NULL UNIQUE
+);
+
+CREATE TABLE GiangVien (
+    GiangVienId INT IDENTITY PRIMARY KEY,
+    MaSo NVARCHAR(20) NOT NULL UNIQUE,
+    HoTen NVARCHAR(150) NOT NULL,
+    GioiTinh BIT NOT NULL,
+    NgaySinh DATE NOT NULL,
+    QueQuan NVARCHAR(200),
+    DanToc NVARCHAR(50),
+    TonGiao NVARCHAR(50),
+    SoDienThoai NVARCHAR(20),
+    Email NVARCHAR(120),
+    TrinhDoCMId INT REFERENCES TrinhDoChuyenMon(TrinhDoCMId),
+    TrinhDoLLCTId INT REFERENCES TrinhDoLLCT(TrinhDoLLCTId),
+    DonViId INT REFERENCES DonVi(DonViId),
+    ChucVu NVARCHAR(100),
+    CapBacId INT REFERENCES CapBac(CapBacId),
+    HeSoLuong DECIMAL(4,2),
+    ChucDanhId INT REFERENCES ChucDanhGiangDay(ChucDanhId),
+    HocHamId INT REFERENCES HocHam(HocHamId),
+    HocViId INT REFERENCES HocVi(HocViId),
+    LinhVucChuyenMon NVARCHAR(200),
+    NamGanNhatDayGioi INT
+);
+
+CREATE TABLE HocPhan (
+    HocPhanId INT IDENTITY PRIMARY KEY,
+    TenHocPhan NVARCHAR(150) NOT NULL,
+    SoTinChi INT NOT NULL DEFAULT 3
+);
+
+CREATE TABLE BaiHoiGiang (
+    BaiHoiGiangId INT IDENTITY PRIMARY KEY,
+    GiangVienId INT NOT NULL REFERENCES GiangVien(GiangVienId),
+    CapBacId INT REFERENCES CapBac(CapBacId),
+    DonViId INT REFERENCES DonVi(DonViId),
+    ChucDanhId INT REFERENCES ChucDanhGiangDay(ChucDanhId),
+    TenBai NVARCHAR(200) NOT NULL,
+    HocPhanId INT REFERENCES HocPhan(HocPhanId),
+    LopThucHien NVARCHAR(100),
+    ThoiGian DATETIME NOT NULL,
+    CapThucHien NVARCHAR(20) NOT NULL CHECK (CapThucHien IN (N'Học viện', N'Bộ')),
+    TrangThai NVARCHAR(30) NOT NULL DEFAULT N'Chưa chấm'
+);
+
+CREATE TABLE HoiDong (
+    HoiDongId INT IDENTITY PRIMARY KEY,
+    BaiHoiGiangId INT NOT NULL UNIQUE REFERENCES BaiHoiGiang(BaiHoiGiangId),
+    TenHoiDong NVARCHAR(200) NOT NULL,
+    NgayLap DATE NOT NULL DEFAULT GETDATE()
+);
+
+CREATE TABLE ThanhVienHoiDong (
+    ThanhVienHoiDongId INT IDENTITY PRIMARY KEY,
+    HoiDongId INT NOT NULL REFERENCES HoiDong(HoiDongId),
+    GiangVienId INT NOT NULL REFERENCES GiangVien(GiangVienId),
+    CapBacId INT REFERENCES CapBac(CapBacId),
+    ChucDanhGiangDayId INT REFERENCES ChucDanhGiangDay(ChucDanhId),
+    VaiTro NVARCHAR(50) NOT NULL CHECK (VaiTro IN (N'Chủ tịch', N'Thành viên', N'Thư ký')),
+    UNIQUE (HoiDongId, GiangVienId)
+);
+
+CREATE TABLE KetQuaHoiGiang (
+    KetQuaHoiGiangId INT IDENTITY PRIMARY KEY,
+    BaiHoiGiangId INT NOT NULL UNIQUE REFERENCES BaiHoiGiang(BaiHoiGiangId),
+    TongDiem DECIMAL(5,2) NOT NULL,
+    XepLoai NVARCHAR(20) NOT NULL
+);
+
+CREATE TABLE KetQuaThanhPhan (
+    KetQuaThanhPhanId INT IDENTITY PRIMARY KEY,
+    KetQuaHoiGiangId INT NOT NULL REFERENCES KetQuaHoiGiang(KetQuaHoiGiangId),
+    TenPhanThi NVARCHAR(100) NOT NULL,
+    Diem DECIMAL(4,2) NOT NULL
+);
+
+CREATE TABLE SangKien (
+    SangKienId INT IDENTITY PRIMARY KEY,
+    TenSangKien NVARCHAR(200) NOT NULL,
+    GiangVienId INT NOT NULL REFERENCES GiangVien(GiangVienId),
+    TuCach NVARCHAR(20) NOT NULL CHECK (TuCach IN (N'Tác giả', N'Đồng tác giả')),
+    Loai NVARCHAR(20) NOT NULL CHECK (Loai IN (N'Sáng kiến', N'Cải tiến')),
+    LinhVuc NVARCHAR(100),
+    NamHoc NVARCHAR(20) NOT NULL,
+    ThoiGianThucHien NVARCHAR(100),
+    DiaDiemPhamVi NVARCHAR(200),
+    XepLoai NVARCHAR(20) CHECK (XepLoai IN (N'Khá', N'Tốt', N'Xuất sắc'))
+);
+
+CREATE TABLE LichGiang (
+    LichGiangId INT IDENTITY PRIMARY KEY,
+    NamHoc NVARCHAR(20) NOT NULL,
+    TenLop NVARCHAR(100) NOT NULL,
+    TenMon NVARCHAR(100) NOT NULL,
+    GiangVienId INT NOT NULL REFERENCES GiangVien(GiangVienId),
+    Buoi NVARCHAR(20) NOT NULL CHECK (Buoi IN (N'Sáng', N'Chiều', N'Tối')),
+    NgayHoc DATE NOT NULL,
+    PhongHoc NVARCHAR(50),
+    SoTiet INT NOT NULL,
+    SoSinhVien INT,
+    UNIQUE (GiangVienId, NgayHoc, Buoi)
+);
+
+CREATE TABLE NguoiDung (
+    NguoiDungId INT IDENTITY PRIMARY KEY,
+    Username NVARCHAR(50) NOT NULL UNIQUE,
+    PasswordHash NVARCHAR(200) NOT NULL,
+    HoTen NVARCHAR(150),
+    Role NVARCHAR(20) NOT NULL DEFAULT 'Admin'
+);
+GO
+
+
+
+INSERT INTO HocHam (TenHocHam) VALUES (N'Giáo sư'), (N'Phó Giáo sư'), (N'Chưa có');
+INSERT INTO HocVi (TenHocVi) VALUES (N'Tiến sĩ'), (N'Thạc sĩ'), (N'Cử nhân');
+INSERT INTO TrinhDoChuyenMon (TenTrinhDo) VALUES (N'Đại học'), (N'Thạc sĩ'), (N'Tiến sĩ');
+INSERT INTO TrinhDoLLCT (TenTrinhDo) VALUES (N'Cao cấp'), (N'Trung cấp');
+INSERT INTO ChucDanhGiangDay (TenChucDanh)
+VALUES (N'Chưa có chức danh'), (N'Trợ giảng'), (N'Giảng viên'), (N'Giảng viên chính');
+INSERT INTO CapBac (TenCapBac) VALUES (N'Thiếu tướng'), (N'Đại tá'), (N'Thượng tá'), (N'Trung tá'), (N'Thiếu tá'), (N'Đại úy'), (N'Thượng úy'), (N'Trung úy'), (N'Thiếu úy');
+
+DECLARE
+    @HocHamGS INT = (SELECT HocHamId FROM HocHam WHERE TenHocHam=N'Giáo sư'),
+    @HocHamPGS INT = (SELECT HocHamId FROM HocHam WHERE TenHocHam=N'Phó Giáo sư'),
+    @HocHamNone INT = (SELECT HocHamId FROM HocHam WHERE TenHocHam=N'Chưa có'),
+    @HocViTS INT = (SELECT HocViId FROM HocVi WHERE TenHocVi=N'Tiến sĩ'),
+    @HocViThs INT = (SELECT HocViId FROM HocVi WHERE TenHocVi=N'Thạc sĩ'),
+    @HocViCuNhan INT = (SELECT HocViId FROM HocVi WHERE TenHocVi=N'Cử nhân'),
+    @TrinhDoDH INT = (SELECT TrinhDoCMId FROM TrinhDoChuyenMon WHERE TenTrinhDo=N'Đại học'),
+    @TrinhDoThs INT = (SELECT TrinhDoCMId FROM TrinhDoChuyenMon WHERE TenTrinhDo=N'Thạc sĩ'),
+    @TrinhDoTS INT = (SELECT TrinhDoCMId FROM TrinhDoChuyenMon WHERE TenTrinhDo=N'Tiến sĩ'),
+    @LLCTCC INT = (SELECT TrinhDoLLCTId FROM TrinhDoLLCT WHERE TenTrinhDo=N'Cao cấp'),
+    @LLCTTC INT = (SELECT TrinhDoLLCTId FROM TrinhDoLLCT WHERE TenTrinhDo=N'Trung cấp'),
+    @ChucDanhChua INT = (SELECT ChucDanhId FROM ChucDanhGiangDay WHERE TenChucDanh=N'Chưa có chức danh'),
+    @ChucDanhTG INT = (SELECT ChucDanhId FROM ChucDanhGiangDay WHERE TenChucDanh=N'Trợ giảng'),
+    @ChucDanhGV INT = (SELECT ChucDanhId FROM ChucDanhGiangDay WHERE TenChucDanh=N'Giảng viên'),
+    @ChucDanhGVC INT = (SELECT ChucDanhId FROM ChucDanhGiangDay WHERE TenChucDanh=N'Giảng viên chính'),
+    @CapBacDaiTa INT = (SELECT CapBacId FROM CapBac WHERE TenCapBac=N'Đại tá'),
+    @CapBacThuongTa INT = (SELECT CapBacId FROM CapBac WHERE TenCapBac=N'Thuong tá'),
+    @CapBacTrungTa INT = (SELECT CapBacId FROM CapBac WHERE TenCapBac=N'Trung tá'),
+    @CapBacThieuTa INT = (SELECT CapBacId FROM CapBac WHERE TenCapBac=N'Thiếu tá'),
+    @CapBacDaiUy INT = (SELECT CapBacId FROM CapBac WHERE TenCapBac=N'Đại úy'),
+    @CapBacThuongUy INT = (SELECT CapBacId FROM CapBac WHERE TenCapBac=N'Thượng úy'),
+    @CapBacTrungUy INT = (SELECT CapBacId FROM CapBac WHERE TenCapBac=N'Trung úy'),
+    @CapBacThieuUy INT = (SELECT CapBacId FROM CapBac WHERE TenCapBac=N'Thiếu úy');
+
+
+
+ALTER TABLE GiangVien ADD KhoaId INT NULL;
+GO
+
+UPDATE gv
+SET KhoaId = d.KhoaId
+FROM GiangVien gv
+JOIN DonVi d ON gv.DonViId = d.DonViId;
+GO
+
+ALTER TABLE GiangVien
+ADD CONSTRAINT FK_GiangVien_Khoa
+FOREIGN KEY (KhoaId) REFERENCES Khoa(KhoaId);
+GO
+
+ALTER TABLE BaiHoiGiang
+DROP CONSTRAINT CK__BaiHoiGia__CapTh__60A75C0F;
+
+ALTER TABLE BaiHoiGiang
+ADD CONSTRAINT CK_BaiHoiGiang_CapThucHien
+CHECK (CapThucHien IN (N'Học viện', N'Khoa', N'Bộ'));
+
+
+

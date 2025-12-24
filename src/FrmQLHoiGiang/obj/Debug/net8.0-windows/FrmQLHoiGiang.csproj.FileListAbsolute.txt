@@ -1,0 +1,593 @@
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.AssemblyReference.cache
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfoInputs.cache
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfo.cs
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.CoreCompileInputs.cache
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.exe
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll.config
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.deps.json
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.runtimeconfig.json
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Siticone.Desktop.UI.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\SiticoneWinFormsUI.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Management.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoi.97966F35.Up2Date
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\refint\FrmQLHoiGiang.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.genruntimeconfig.cache
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\ref\FrmQLHoiGiang.dll
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmLogin.resources
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmMain.resources
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.GenerateResource.cache
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcGiangVien.resources
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcBaoCao.resources
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcLichGiang.resources
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcSangKien.resources
+D:\Desktop\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcHoiGiang.resources
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.exe
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll.config
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.deps.json
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.runtimeconfig.json
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Siticone.Desktop.UI.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\SiticoneWinFormsUI.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Management.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.AssemblyReference.cache
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcBaoCao.resources
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcGiangVien.resources
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcHoiGiang.resources
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcLichGiang.resources
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcSangKien.resources
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmLogin.resources
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmMain.resources
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.GenerateResource.cache
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfoInputs.cache
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfo.cs
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.CoreCompileInputs.cache
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoi.97966F35.Up2Date
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\refint\FrmQLHoiGiang.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.genruntimeconfig.cache
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\ref\FrmQLHoiGiang.dll
+D:\Thanh's file\T01\Lap_trinh_may_tinh\Last project\QLHoiGiang\frmQLHoiGiang\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Properties.Resources.resources
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.exe
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll.config
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.deps.json
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.runtimeconfig.json
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Siticone.Desktop.UI.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\SiticoneWinFormsUI.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Management.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.AssemblyReference.cache
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcBaoCao.resources
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcGiangVien.resources
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcHoiGiang.resources
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcLichGiang.resources
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcSangKien.resources
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmLogin.resources
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmMain.resources
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Properties.Resources.resources
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.GenerateResource.cache
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfoInputs.cache
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfo.cs
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.CoreCompileInputs.cache
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.sourcelink.json
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoi.97966F35.Up2Date
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\refint\FrmQLHoiGiang.dll
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.genruntimeconfig.cache
+D:\Desktop\mai thanh\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\ref\FrmQLHoiGiang.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.exe
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll.config
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.deps.json
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.runtimeconfig.json
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Siticone.Desktop.UI.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\SiticoneWinFormsUI.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Management.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.AssemblyReference.cache
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcBaoCao.resources
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcGiangVien.resources
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcHoiGiang.resources
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcLichGiang.resources
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcSangKien.resources
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmLogin.resources
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmMain.resources
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Properties.Resources.resources
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.GenerateResource.cache
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfoInputs.cache
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfo.cs
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.CoreCompileInputs.cache
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.sourcelink.json
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoi.97966F35.Up2Date
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\refint\FrmQLHoiGiang.dll
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.genruntimeconfig.cache
+D:\Desktop\BTL LTMT A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\ref\FrmQLHoiGiang.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.exe
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll.config
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.deps.json
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.runtimeconfig.json
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Siticone.Desktop.UI.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\SiticoneWinFormsUI.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Management.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.AssemblyReference.cache
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcBaoCao.resources
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcGiangVien.resources
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcHoiGiang.resources
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcLichGiang.resources
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcSangKien.resources
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmLogin.resources
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmMain.resources
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Properties.Resources.resources
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.GenerateResource.cache
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfoInputs.cache
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfo.cs
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.CoreCompileInputs.cache
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.sourcelink.json
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoi.97966F35.Up2Date
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\refint\FrmQLHoiGiang.dll
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.genruntimeconfig.cache
+D:\Desktop\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\ref\FrmQLHoiGiang.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.exe
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll.config
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.deps.json
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.runtimeconfig.json
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Siticone.Desktop.UI.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\SiticoneWinFormsUI.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Management.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.AssemblyReference.cache
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcBaoCao.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcGiangVien.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcHoiGiang.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcLichGiang.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcSangKien.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmLogin.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmMain.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Properties.Resources.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.GenerateResource.cache
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfoInputs.cache
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfo.cs
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.CoreCompileInputs.cache
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.sourcelink.json
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoi.97966F35.Up2Date
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\refint\FrmQLHoiGiang.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.genruntimeconfig.cache
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\ref\FrmQLHoiGiang.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcDonVi.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcKhoa.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.exe
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll.config
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.deps.json
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.runtimeconfig.json
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\Siticone.Desktop.UI.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\SiticoneWinFormsUI.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Management.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.AssemblyReference.cache
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcBaoCao.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcDonVi.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcGiangVien.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcHoiGiang.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcKhoa.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcLichGiang.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Controls.UcSangKien.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmLogin.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Forms.FrmMain.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.Properties.Resources.resources
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.GenerateResource.cache
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfoInputs.cache
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.AssemblyInfo.cs
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.csproj.CoreCompileInputs.cache
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.sourcelink.json
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoi.97966F35.Up2Date
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\refint\FrmQLHoiGiang.dll
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.pdb
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.genruntimeconfig.cache
+D:\Desktop\Lap trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\ref\FrmQLHoiGiang.dll
