@@ -24,6 +24,7 @@ partial class UcHoiGiang
         DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
         panelLeft = new Siticone.Desktop.UI.WinForms.SiticonePanel();
         btnRefreshHoiGiang = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+        txtQuickFilter = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
         gridHoiGiang = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
         colTenBai = new DataGridViewTextBoxColumn();
         colGiangVien = new DataGridViewTextBoxColumn();
@@ -91,6 +92,7 @@ partial class UcHoiGiang
         // panelLeft
         // 
         panelLeft.BorderRadius = 12;
+        panelLeft.Controls.Add(txtQuickFilter);
         panelLeft.Controls.Add(btnRefreshHoiGiang);
         panelLeft.Controls.Add(gridHoiGiang);
         panelLeft.Dock = DockStyle.Fill;
@@ -116,6 +118,20 @@ partial class UcHoiGiang
         btnRefreshHoiGiang.TabIndex = 1;
         btnRefreshHoiGiang.Text = "Làm mới";
         btnRefreshHoiGiang.Click += btnRefreshHoiGiang_Click;
+        // 
+        // txtQuickFilter
+        // 
+        txtQuickFilter.BorderRadius = 8;
+        txtQuickFilter.DefaultText = "";
+        txtQuickFilter.Font = new Font("Segoe UI", 16F);
+        txtQuickFilter.Location = new Point(183, 13);
+        txtQuickFilter.Margin = new Padding(5, 6, 5, 6);
+        txtQuickFilter.Name = "txtQuickFilter";
+        txtQuickFilter.PasswordChar = '\0';
+        txtQuickFilter.PlaceholderText = "Loc nhanh";
+        txtQuickFilter.SelectedText = "";
+        txtQuickFilter.Size = new Size(300, 52);
+        txtQuickFilter.TabIndex = 2;
         // 
         // gridHoiGiang
         // 
@@ -975,6 +991,7 @@ partial class UcHoiGiang
 
     private Siticone.Desktop.UI.WinForms.SiticonePanel panelLeft;
     private Siticone.Desktop.UI.WinForms.SiticoneButton btnRefreshHoiGiang;
+    private Siticone.Desktop.UI.WinForms.SiticoneTextBox txtQuickFilter;
     private Siticone.Desktop.UI.WinForms.SiticoneDataGridView gridHoiGiang;
     private TableLayoutPanel layoutMain;
     private Siticone.Desktop.UI.WinForms.SiticonePanel panelRight;

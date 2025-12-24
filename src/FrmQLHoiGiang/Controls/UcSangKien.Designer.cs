@@ -43,6 +43,7 @@ partial class UcSangKien
         btnHuy = new Siticone.Desktop.UI.WinForms.SiticoneButton();
         btnLuu = new Siticone.Desktop.UI.WinForms.SiticoneButton();
         btnLamMoi = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+        txtQuickFilter = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
         panelLeft = new Siticone.Desktop.UI.WinForms.SiticonePanel();
         dialog = new Siticone.Desktop.UI.WinForms.SiticoneMessageDialog();
         layoutMain = new TableLayoutPanel();
@@ -415,10 +416,25 @@ partial class UcSangKien
         btnLamMoi.Text = "Làm mới";
         btnLamMoi.Click += btnLamMoi_Click;
         // 
+        // txtQuickFilter
+        // 
+        txtQuickFilter.BorderRadius = 8;
+        txtQuickFilter.DefaultText = "";
+        txtQuickFilter.Font = new Font("Segoe UI", 16F);
+        txtQuickFilter.Location = new Point(183, 13);
+        txtQuickFilter.Margin = new Padding(5, 6, 5, 6);
+        txtQuickFilter.Name = "txtQuickFilter";
+        txtQuickFilter.PasswordChar = '\0';
+        txtQuickFilter.PlaceholderText = "Loc nhanh";
+        txtQuickFilter.SelectedText = "";
+        txtQuickFilter.Size = new Size(300, 52);
+        txtQuickFilter.TabIndex = 3;
+        // 
         // panelLeft
         // 
         panelLeft.BorderRadius = 12;
         panelLeft.Controls.Add(gridSangKien);
+        panelLeft.Controls.Add(txtQuickFilter);
         panelLeft.Controls.Add(btnLamMoi);
         panelLeft.Dock = DockStyle.Fill;
         panelLeft.FillColor = Color.White;
@@ -504,6 +520,7 @@ partial class UcSangKien
     private Siticone.Desktop.UI.WinForms.SiticoneButton btnHuy;
     private Siticone.Desktop.UI.WinForms.SiticoneButton btnLuu;
     private Siticone.Desktop.UI.WinForms.SiticoneButton btnLamMoi;
+    private Siticone.Desktop.UI.WinForms.SiticoneTextBox txtQuickFilter;
     private Siticone.Desktop.UI.WinForms.SiticonePanel panelLeft;
     private Siticone.Desktop.UI.WinForms.SiticoneMessageDialog dialog;
     private DataGridViewTextBoxColumn colTenSangKien;

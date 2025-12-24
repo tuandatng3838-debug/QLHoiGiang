@@ -18,6 +18,7 @@ public partial class UcSangKien : UserControl
         InitializeComponent();
         gridSangKien.AutoGenerateColumns = false;
         gridSangKien.DataSource = _binding;
+        txtQuickFilter.TextChanged += (_, _) => ApplyQuickFilter();
         LoadLookups();
         cboGiangVien.SelectedIndexChanged += (_, _) => UpdateGiangVienInfo();
         LoadData();
@@ -68,8 +69,26 @@ public partial class UcSangKien : UserControl
     private void LoadData()
     {
         _data = AppServices.SangKien.GetAll();
-        _binding.DataSource = _data;
+        ApplyQuickFilter();
         ClearForm();
+    }
+
+    private void ApplyQuickFilter()
+    {
+        var query = txtQuickFilter.Text.Trim();
+        if (string.IsNullOrWhiteSpace(query))
+        {
+            _binding.DataSource = _data;
+            return;
+        }
+
+        var needle = query.ToLowerInvariant();
+        _binding.DataSource = _data.Where(s =>
+            s.TenSangKien.ToLowerInvariant().Contains(needle) ||
+            s.GiangVien.ToLowerInvariant().Contains(needle) ||
+            s.NamHoc.ToLowerInvariant().Contains(needle) ||
+            s.Loai.ToLowerInvariant().Contains(needle)
+        ).ToList();
     }
 
     private void ClearForm()
@@ -91,12 +110,16 @@ public partial class UcSangKien : UserControl
 
     private void gridSangKien_CellClick(object sender, DataGridViewCellEventArgs e)
     {
-        if (e.RowIndex < 0 || e.RowIndex >= _data.Count)
+        if (e.RowIndex < 0 || e.RowIndex >= _binding.Count)
         {
             return;
         }
 
-        _current = _data[e.RowIndex];
+        _current = _binding[e.RowIndex] as SangKien;
+        if (_current == null)
+        {
+            return;
+        }
         txtTenSangKien.Text = _current.TenSangKien;
         cboGiangVien.SelectedValue = _current.GiangVienId;
         cboTuCach.SelectedItem = _current.TuCach;

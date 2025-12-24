@@ -28,6 +28,7 @@ partial class UcLichGiang
         btnXemLich = new Siticone.Desktop.UI.WinForms.SiticoneButton();
         cboLocGiangVien = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
         btnLamMoi = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+        txtQuickFilter = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
         gridLichGiang = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
         colNgay = new DataGridViewTextBoxColumn();
         colBuoi = new DataGridViewTextBoxColumn();
@@ -86,6 +87,7 @@ partial class UcLichGiang
         panelLeft.Controls.Add(lstLichCaNhan);
         panelLeft.Controls.Add(btnXemLich);
         panelLeft.Controls.Add(cboLocGiangVien);
+        panelLeft.Controls.Add(txtQuickFilter);
         panelLeft.Controls.Add(btnLamMoi);
         panelLeft.Controls.Add(gridLichGiang);
         panelLeft.Dock = DockStyle.Fill;
@@ -163,6 +165,20 @@ partial class UcLichGiang
         btnLamMoi.TabIndex = 1;
         btnLamMoi.Text = "Làm mới";
         btnLamMoi.Click += btnLamMoi_Click;
+        // 
+        // txtQuickFilter
+        // 
+        txtQuickFilter.BorderRadius = 8;
+        txtQuickFilter.DefaultText = "";
+        txtQuickFilter.Font = new Font("Segoe UI", 16F);
+        txtQuickFilter.Location = new Point(183, 13);
+        txtQuickFilter.Margin = new Padding(5, 6, 5, 6);
+        txtQuickFilter.Name = "txtQuickFilter";
+        txtQuickFilter.PasswordChar = '\0';
+        txtQuickFilter.PlaceholderText = "Loc nhanh";
+        txtQuickFilter.SelectedText = "";
+        txtQuickFilter.Size = new Size(300, 52);
+        txtQuickFilter.TabIndex = 2;
         // 
         // gridLichGiang
         // 
@@ -619,6 +635,7 @@ partial class UcLichGiang
     private Siticone.Desktop.UI.WinForms.SiticoneButton btnXemLich;
     private Siticone.Desktop.UI.WinForms.SiticoneComboBox cboLocGiangVien;
     private Siticone.Desktop.UI.WinForms.SiticoneButton btnLamMoi;
+    private Siticone.Desktop.UI.WinForms.SiticoneTextBox txtQuickFilter;
     private Siticone.Desktop.UI.WinForms.SiticoneDataGridView gridLichGiang;
     private Siticone.Desktop.UI.WinForms.SiticonePanel panelRight;
     private Siticone.Desktop.UI.WinForms.SiticoneTextBox txtSiSo;

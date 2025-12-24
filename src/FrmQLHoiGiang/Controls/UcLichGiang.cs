@@ -24,6 +24,7 @@ public partial class UcLichGiang : UserControl
         gridLichGiang.DataSource = _binding;
         cboGiangVien.SelectedIndexChanged += (_, _) => UpdateGiangVienInfo();
         cboBoMon.SelectedIndexChanged += (_, _) => HandleBoMonChanged();
+        txtQuickFilter.TextChanged += (_, _) => ApplyQuickFilter();
         LoadLookups();
         LoadData();
         AppServices.GiangVien.Changed += HandleGiangVienChanged;
@@ -116,9 +117,27 @@ public partial class UcLichGiang : UserControl
     private void LoadData()
     {
         _data = AppServices.LichGiang.GetAll();
-        _binding.DataSource = _data;
+        ApplyQuickFilter();
         UpdateLichCaNhan();
         ClearForm();
+    }
+
+    private void ApplyQuickFilter()
+    {
+        var query = txtQuickFilter.Text.Trim();
+        if (string.IsNullOrWhiteSpace(query))
+        {
+            _binding.DataSource = _data;
+            return;
+        }
+
+        var needle = query.ToLowerInvariant();
+        _binding.DataSource = _data.Where(l =>
+            l.NgayHoc.ToString("dd/MM/yyyy").ToLowerInvariant().Contains(needle) ||
+            l.Buoi.ToLowerInvariant().Contains(needle) ||
+            l.TenMon.ToLowerInvariant().Contains(needle) ||
+            l.TenLop.ToLowerInvariant().Contains(needle)
+        ).ToList();
     }
 
     private void ClearForm()
@@ -144,12 +163,16 @@ public partial class UcLichGiang : UserControl
 
     private void gridLichGiang_CellClick(object sender, DataGridViewCellEventArgs e)
     {
-        if (e.RowIndex < 0 || e.RowIndex >= _data.Count)
+        if (e.RowIndex < 0 || e.RowIndex >= _binding.Count)
         {
             return;
         }
 
-        _current = _data[e.RowIndex];
+        _current = _binding[e.RowIndex] as LichGiang;
+        if (_current == null)
+        {
+            return;
+        }
         txtNamHoc.Text = _current.NamHoc;
         txtTenLop.Text = _current.TenLop;
         txtTenMon.Text = _current.TenMon;

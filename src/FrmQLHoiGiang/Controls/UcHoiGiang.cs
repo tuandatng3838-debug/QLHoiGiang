@@ -38,6 +38,7 @@ public partial class UcHoiGiang : UserControl
         gridHoiGiang.AutoGenerateColumns = false;
         gridHoiGiang.DataSource = _bindingHoiGiang;
         cboHocPhan.DropDownStyle = ComboBoxStyle.DropDown;
+        txtQuickFilter.TextChanged += (_, _) => ApplyQuickFilter();
         LoadLookups();
         cboGiangVien.SelectedIndexChanged += (_, _) => UpdateGiangVienInfo();
         cboHocPhan.TextChanged += cboHocPhan_TextChanged;
@@ -96,10 +97,28 @@ public partial class UcHoiGiang : UserControl
     private void LoadHoiGiang()
     {
         _hoiGiang = AppServices.HoiGiang.GetBaiHoiGiang();
-        _bindingHoiGiang.DataSource = _hoiGiang;
+        ApplyQuickFilter();
         BindHoiGiangCombos();
         ClearHoiGiangForm();
         gridHoiGiang.ClearSelection();
+    }
+
+    private void ApplyQuickFilter()
+    {
+        var query = txtQuickFilter.Text.Trim();
+        if (string.IsNullOrWhiteSpace(query))
+        {
+            _bindingHoiGiang.DataSource = _hoiGiang;
+            return;
+        }
+
+        var needle = query.ToLowerInvariant();
+        _bindingHoiGiang.DataSource = _hoiGiang.Where(b =>
+            b.TenBai.ToLowerInvariant().Contains(needle) ||
+            b.GiangVien.ToLowerInvariant().Contains(needle) ||
+            b.ThoiGian.ToString("dd/MM/yyyy").ToLowerInvariant().Contains(needle) ||
+            b.CapThucHien.ToLowerInvariant().Contains(needle)
+        ).ToList();
     }
 
     private void BindHoiGiangCombos()
@@ -248,12 +267,16 @@ public partial class UcHoiGiang : UserControl
 
     private void gridHoiGiang_CellClick(object sender, DataGridViewCellEventArgs e)
     {
-        if (e.RowIndex < 0 || e.RowIndex >= _hoiGiang.Count)
+        if (e.RowIndex < 0 || e.RowIndex >= _bindingHoiGiang.Count)
         {
             return;
         }
 
-        var selected = _hoiGiang[e.RowIndex];
+        var selected = _bindingHoiGiang[e.RowIndex] as BaiHoiGiang;
+        if (selected == null)
+        {
+            return;
+        }
         FillHoiGiangForm(selected);
         SelectBaiHoiGiangForTabs(selected.BaiHoiGiangId);
         LoadHoiDong();
