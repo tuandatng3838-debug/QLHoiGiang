@@ -32,6 +32,7 @@ partial class UcHoiGiang
         panelRight = new Siticone.Desktop.UI.WinForms.SiticonePanel();
         tabMain = new TabControl();
         tabDangKy = new TabPage();
+        btnXoaHoiGiang = new Siticone.Desktop.UI.WinForms.SiticoneButton();
         btnLuuHoiGiang = new Siticone.Desktop.UI.WinForms.SiticoneButton();
         dtThoiGian = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
         cboCapThucHien = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
@@ -256,6 +257,7 @@ partial class UcHoiGiang
         // 
         tabDangKy.AllowDrop = true;
         tabDangKy.BackColor = Color.White;
+        tabDangKy.Controls.Add(btnXoaHoiGiang);
         tabDangKy.Controls.Add(btnLuuHoiGiang);
         tabDangKy.Controls.Add(dtThoiGian);
         tabDangKy.Controls.Add(cboCapThucHien);
@@ -277,6 +279,20 @@ partial class UcHoiGiang
         tabDangKy.TabIndex = 0;
         tabDangKy.Text = "Đăng ký";
         tabDangKy.Click += tabDangKy_Click;
+        // 
+        // btnXoaHoiGiang
+        // 
+        btnXoaHoiGiang.BorderRadius = 8;
+        btnXoaHoiGiang.FillColor = Color.FromArgb(244, 67, 54);
+        btnXoaHoiGiang.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
+        btnXoaHoiGiang.ForeColor = Color.White;
+        btnXoaHoiGiang.Location = new Point(330, 590);
+        btnXoaHoiGiang.Margin = new Padding(3, 4, 3, 4);
+        btnXoaHoiGiang.Name = "btnXoaHoiGiang";
+        btnXoaHoiGiang.Size = new Size(160, 60);
+        btnXoaHoiGiang.TabIndex = 13;
+        btnXoaHoiGiang.Text = "Xoa";
+        btnXoaHoiGiang.Click += btnXoaHoiGiang_Click;
         // 
         // btnLuuHoiGiang
         // 
@@ -964,6 +980,7 @@ partial class UcHoiGiang
     private Siticone.Desktop.UI.WinForms.SiticonePanel panelRight;
     private TabControl tabMain;
     private TabPage tabDangKy;
+    private Siticone.Desktop.UI.WinForms.SiticoneButton btnXoaHoiGiang;
     private Siticone.Desktop.UI.WinForms.SiticoneButton btnLuuHoiGiang;
     private Siticone.Desktop.UI.WinForms.SiticoneComboBox cboCapThucHien;
     private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker dtThoiGian;

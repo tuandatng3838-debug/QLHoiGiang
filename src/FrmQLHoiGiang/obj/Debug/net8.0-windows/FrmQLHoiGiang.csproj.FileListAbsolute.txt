@@ -677,3 +677,5 @@ D:\Desktop\Lap-trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows
 D:\Desktop\Lap-trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.pdb
 D:\Desktop\Lap-trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\FrmQLHoiGiang.genruntimeconfig.cache
 D:\Desktop\Lap-trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\obj\Debug\net8.0-windows\ref\FrmQLHoiGiang.dll
+D:\Desktop\Lap-trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Desktop\Lap-trinh\BTL_LTMT_A5_done\src\FrmQLHoiGiang\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

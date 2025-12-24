@@ -616,6 +616,32 @@ public partial class UcHoiGiang : UserControl
         }
     }
 
+    private void btnXoaHoiGiang_Click(object sender, EventArgs e)
+    {
+        if (_selected == null)
+        {
+            ShowMessage("Chon bai hoi giang can xoa.");
+            return;
+        }
+
+        var confirmed = DialogHelper.Confirm(FindForm(), $"Xoa bai hoi giang \"{_selected.TenBai}\"?");
+        if (!confirmed)
+        {
+            return;
+        }
+
+        try
+        {
+            AppServices.HoiGiang.DeleteBaiHoiGiang(_selected.BaiHoiGiangId);
+            LoadHoiGiang();
+            ClearHoiGiangForm();
+        }
+        catch (Exception ex)
+        {
+            ShowMessage($"Khong the xoa bai hoi giang: {ex.Message}", MessageDialogIcon.Error);
+        }
+    }
+
     private void LoadKetQua()
     {
         if (cboKetQuaBai.SelectedValue == null)
