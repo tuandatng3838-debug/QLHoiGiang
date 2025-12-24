@@ -48,6 +48,7 @@ public partial class UcLichGiang : UserControl
         cboLocGiangVien.DisplayMember = "HoTen";
         cboLocGiangVien.ValueMember = "GiangVienId";
         UpdateKhoaFromBoMon(GetSelectedId(cboBoMon));
+        UpdateMonFromBoMon(GetSelectedId(cboBoMon));
     }
 
     private void HandleGiangVienChanged()
@@ -80,6 +81,7 @@ public partial class UcLichGiang : UserControl
         RestoreSelection(cboBoMon, selectedBoMon);
         RestoreSelection(cboGiangVien, selectedGiangVien);
         UpdateKhoaFromBoMon(GetSelectedId(cboBoMon));
+        UpdateMonFromBoMon(GetSelectedId(cboBoMon));
     }
 
     private static int? GetSelectedId(ComboBox combo)
@@ -157,6 +159,15 @@ public partial class UcLichGiang : UserControl
         txtPhong.Text = _current.PhongHoc ?? string.Empty;
         txtSoTiet.Text = _current.SoTiet.ToString();
         txtSiSo.Text = _current.SoSinhVien?.ToString() ?? "0";
+        var selectedDonViId = _current.DonViId ?? _giangVien.FirstOrDefault(g => g.GiangVienId == _current.GiangVienId)?.DonViId;
+        if (selectedDonViId.HasValue)
+        {
+            _suppressBoMonChange = true;
+            cboBoMon.SelectedValue = selectedDonViId.Value;
+            _suppressBoMonChange = false;
+            UpdateKhoaFromBoMon(selectedDonViId.Value);
+            UpdateMonFromBoMon(selectedDonViId.Value);
+        }
 
         btnHuy.Visible = true;
         btnLuu.FillColor = Color.SeaGreen;
@@ -204,12 +215,14 @@ public partial class UcLichGiang : UserControl
 
         txtGiangVienKhoa.Text = khoa ?? string.Empty;
 
-        if (gv.DonViId.HasValue)
+        var donViId = _current?.DonViId ?? gv.DonViId;
+        if (donViId.HasValue)
         {
             _suppressBoMonChange = true;
-            cboBoMon.SelectedValue = gv.DonViId.Value;
+            cboBoMon.SelectedValue = donViId.Value;
             _suppressBoMonChange = false;
-            UpdateKhoaFromBoMon(gv.DonViId.Value);
+            UpdateKhoaFromBoMon(donViId.Value);
+            UpdateMonFromBoMon(donViId.Value);
         }
     }
 
@@ -221,6 +234,7 @@ public partial class UcLichGiang : UserControl
         }
 
         UpdateKhoaFromBoMon(GetSelectedId(cboBoMon));
+        UpdateMonFromBoMon(GetSelectedId(cboBoMon));
     }
 
     private void UpdateKhoaFromBoMon(int? donViId)
@@ -233,6 +247,12 @@ public partial class UcLichGiang : UserControl
 
         var boMon = _donVi.FirstOrDefault(d => d.Id == donViId.Value);
         txtKhoa.Text = boMon?.Khoa ?? string.Empty;
+    }
+
+    private void UpdateMonFromBoMon(int? donViId)
+    {
+        var boMonName = _donVi.FirstOrDefault(d => d.Id == donViId)?.Name ?? string.Empty;
+        txtTenMon.Text = boMonName;
     }
 
     private void BindBoMon(int? selectedId)
@@ -290,6 +310,7 @@ public partial class UcLichGiang : UserControl
         entity.GiangVienId = (int)cboGiangVien.SelectedValue;
         var gv = _giangVien.FirstOrDefault(item => item.GiangVienId == entity.GiangVienId);
         var selectedBoMonId = GetSelectedId(cboBoMon);
+        entity.DonViId = selectedBoMonId;
         if (gv != null && selectedBoMonId.HasValue)
         {
             var khoaGiangVien = gv.KhoaId.HasValue

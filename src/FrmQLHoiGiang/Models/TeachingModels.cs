@@ -82,6 +82,7 @@ public class LichGiang
     public string TenMon { get; set; } = string.Empty;
     public int GiangVienId { get; set; }
     public string GiangVien { get; set; } = string.Empty;
+    public int? DonViId { get; set; }
     public string Buoi { get; set; } = string.Empty;
     public DateTime NgayHoc { get; set; }
     public string? PhongHoc { get; set; }

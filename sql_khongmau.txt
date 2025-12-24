@@ -241,4 +241,20 @@ ADD CONSTRAINT CK_BaiHoiGiang_CapThucHien
 CHECK (CapThucHien IN (N'Học viện', N'Khoa', N'Bộ'));
 
 
+USE QLHoiGiang;
+GO
+
+ALTER TABLE LichGiang ADD DonViId INT NULL;
+GO
+
+ALTER TABLE LichGiang
+ADD CONSTRAINT FK_LichGiang_DonVi
+FOREIGN KEY (DonViId) REFERENCES DonVi(DonViId);
+GO
+
+UPDATE l
+SET l.DonViId = gv.DonViId
+FROM LichGiang l
+JOIN GiangVien gv ON l.GiangVienId = gv.GiangVienId;
+GO
 

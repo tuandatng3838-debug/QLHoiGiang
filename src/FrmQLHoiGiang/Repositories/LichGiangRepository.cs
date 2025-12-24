@@ -9,7 +9,7 @@ public class LichGiangRepository : RepositoryBase
     {
         const string sql = """
             SELECT l.LichGiangId, l.NamHoc, l.TenLop, l.TenMon, l.GiangVienId, gv.HoTen,
-                   l.Buoi, l.NgayHoc, l.PhongHoc, l.SoTiet, l.SoSinhVien
+                   l.DonViId, l.Buoi, l.NgayHoc, l.PhongHoc, l.SoTiet, l.SoSinhVien
             FROM LichGiang l
             INNER JOIN GiangVien gv ON l.GiangVienId = gv.GiangVienId
             ORDER BY l.NgayHoc DESC, l.Buoi
@@ -47,9 +47,9 @@ public class LichGiangRepository : RepositoryBase
     public int Insert(LichGiang entity)
     {
         const string sql = """
-            INSERT INTO LichGiang (NamHoc, TenLop, TenMon, GiangVienId, Buoi, NgayHoc, PhongHoc, SoTiet, SoSinhVien)
+            INSERT INTO LichGiang (NamHoc, TenLop, TenMon, GiangVienId, DonViId, Buoi, NgayHoc, PhongHoc, SoTiet, SoSinhVien)
             OUTPUT INSERTED.LichGiangId
-            VALUES (@NamHoc, @TenLop, @TenMon, @GiangVienId, @Buoi, @NgayHoc, @PhongHoc, @SoTiet, @SoSinhVien)
+            VALUES (@NamHoc, @TenLop, @TenMon, @GiangVienId, @DonViId, @Buoi, @NgayHoc, @PhongHoc, @SoTiet, @SoSinhVien)
             """;
         using var conn = OpenConnection();
         using var cmd = new SqlCommand(sql, conn);
@@ -61,7 +61,7 @@ public class LichGiangRepository : RepositoryBase
     {
         const string sql = """
             UPDATE LichGiang
-            SET NamHoc=@NamHoc, TenLop=@TenLop, TenMon=@TenMon, GiangVienId=@GiangVienId, Buoi=@Buoi,
+            SET NamHoc=@NamHoc, TenLop=@TenLop, TenMon=@TenMon, GiangVienId=@GiangVienId, DonViId=@DonViId, Buoi=@Buoi,
                 NgayHoc=@NgayHoc, PhongHoc=@PhongHoc, SoTiet=@SoTiet, SoSinhVien=@SoSinhVien
             WHERE LichGiangId=@LichGiangId
             """;
@@ -87,6 +87,7 @@ public class LichGiangRepository : RepositoryBase
         cmd.Parameters.AddWithValue("@TenLop", entity.TenLop);
         cmd.Parameters.AddWithValue("@TenMon", entity.TenMon);
         cmd.Parameters.AddWithValue("@GiangVienId", entity.GiangVienId);
+        cmd.Parameters.AddWithValue("@DonViId", (object?)entity.DonViId ?? DBNull.Value);
         cmd.Parameters.AddWithValue("@Buoi", entity.Buoi);
         cmd.Parameters.AddWithValue("@NgayHoc", entity.NgayHoc.Date);
         cmd.Parameters.AddWithValue("@PhongHoc", (object?)entity.PhongHoc ?? DBNull.Value);
@@ -102,10 +103,11 @@ public class LichGiangRepository : RepositoryBase
         TenMon = reader.GetString(3),
         GiangVienId = reader.GetInt32(4),
         GiangVien = reader.GetString(5),
-        Buoi = reader.GetString(6),
-        NgayHoc = reader.GetDateTime(7),
-        PhongHoc = reader.IsDBNull(8) ? null : reader.GetString(8),
-        SoTiet = reader.GetInt32(9),
-        SoSinhVien = reader.IsDBNull(10) ? null : reader.GetInt32(10)
+        DonViId = reader.IsDBNull(6) ? null : reader.GetInt32(6),
+        Buoi = reader.GetString(7),
+        NgayHoc = reader.GetDateTime(8),
+        PhongHoc = reader.IsDBNull(9) ? null : reader.GetString(9),
+        SoTiet = reader.GetInt32(10),
+        SoSinhVien = reader.IsDBNull(11) ? null : reader.GetInt32(11)
     };
 }

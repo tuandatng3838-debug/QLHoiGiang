@@ -245,14 +245,19 @@ public partial class UcHoiGiang : UserControl
 
         MessageBox.Show(FindForm(), message, "Thong bao", MessageBoxButtons.OK, mapped);
     }
-private void gridHoiGiang_CellClick(object sender, DataGridViewCellEventArgs e)
+
+    private void gridHoiGiang_CellClick(object sender, DataGridViewCellEventArgs e)
     {
         if (e.RowIndex < 0 || e.RowIndex >= _hoiGiang.Count)
         {
             return;
         }
 
-        FillHoiGiangForm(_hoiGiang[e.RowIndex]);
+        var selected = _hoiGiang[e.RowIndex];
+        FillHoiGiangForm(selected);
+        SelectBaiHoiGiangForTabs(selected.BaiHoiGiangId);
+        LoadHoiDong();
+        LoadKetQua();
     }
 
     private void btnLuuHoiGiang_Click(object sender, EventArgs e)
@@ -395,32 +400,7 @@ private void gridHoiGiang_CellClick(object sender, DataGridViewCellEventArgs e)
 
     private void btnLoadKetQua_Click(object sender, EventArgs e)
     {
-        if (cboKetQuaBai.SelectedValue == null)
-        {
-            return;
-        }
-
-        var ketQua = AppServices.HoiGiang.GetKetQua((int)cboKetQuaBai.SelectedValue);
-        foreach (var box in PracticeScoreBoxes)
-        {
-            box.Text = string.Empty;
-        }
-
-        if (ketQua == null)
-        {
-            txtDiemHieuBiet.Text = "";
-            txtDiemHoSo.Text = "";
-            txtDiemThucHanh.Text = "";
-            txtTongDiem.Text = "";
-            txtXepLoai.Text = "";
-            return;
-        }
-
-        txtTongDiem.Text = ketQua.TongDiem.ToString("0.##");
-        txtXepLoai.Text = ketQua.XepLoai;
-        txtDiemHieuBiet.Text = ketQua.ThanhPhan.FirstOrDefault(x => x.TenPhanThi == "Phan thi hieu biet")?.Diem.ToString("0.##") ?? "";
-        txtDiemHoSo.Text = ketQua.ThanhPhan.FirstOrDefault(x => x.TenPhanThi == "Phan thi gioi thieu giang vien va ho so bai")?.Diem.ToString("0.##") ?? "";
-        txtDiemThucHanh.Text = ketQua.ThanhPhan.FirstOrDefault(x => x.TenPhanThi.StartsWith("Phan thuc hanh"))?.Diem.ToString("0.##") ?? "";
+        LoadKetQua();
     }
 
     private void btnTinhKetQua_Click(object sender, EventArgs e)
@@ -495,11 +475,14 @@ private void gridHoiGiang_CellClick(object sender, DataGridViewCellEventArgs e)
             return;
         }
 
+        var selectedBaiHoiGiangId = (int)cboKetQuaBai.SelectedValue;
+        var existing = AppServices.HoiGiang.GetKetQua(selectedBaiHoiGiangId);
         var ketQua = new KetQuaHoiGiang
         {
-            BaiHoiGiangId = (int)cboKetQuaBai.SelectedValue,
+            BaiHoiGiangId = selectedBaiHoiGiangId,
             TongDiem = tong,
-            XepLoai = txtXepLoai.Text
+            XepLoai = txtXepLoai.Text,
+            KetQuaHoiGiangId = existing?.KetQuaHoiGiangId ?? 0
         };
 
         ketQua.ThanhPhan.Add(new KetQuaThanhPhan { TenPhanThi = "Phan thi hieu biet", Diem = hieuBiet });
@@ -604,6 +587,49 @@ private void gridHoiGiang_CellClick(object sender, DataGridViewCellEventArgs e)
             2 => CapBo,
             _ => CapHocVien
         };
+    }
+
+    private void SelectBaiHoiGiangForTabs(int baiHoiGiangId)
+    {
+        if (cboHoiDongBai.DataSource != null)
+        {
+            cboHoiDongBai.SelectedValue = baiHoiGiangId;
+        }
+
+        if (cboKetQuaBai.DataSource != null)
+        {
+            cboKetQuaBai.SelectedValue = baiHoiGiangId;
+        }
+    }
+
+    private void LoadKetQua()
+    {
+        if (cboKetQuaBai.SelectedValue == null)
+        {
+            return;
+        }
+
+        var ketQua = AppServices.HoiGiang.GetKetQua((int)cboKetQuaBai.SelectedValue);
+        foreach (var box in PracticeScoreBoxes)
+        {
+            box.Text = string.Empty;
+        }
+
+        if (ketQua == null)
+        {
+            txtDiemHieuBiet.Text = "";
+            txtDiemHoSo.Text = "";
+            txtDiemThucHanh.Text = "";
+            txtTongDiem.Text = "";
+            txtXepLoai.Text = "";
+            return;
+        }
+
+        txtTongDiem.Text = ketQua.TongDiem.ToString("0.##");
+        txtXepLoai.Text = ketQua.XepLoai;
+        txtDiemHieuBiet.Text = ketQua.ThanhPhan.FirstOrDefault(x => x.TenPhanThi == "Phan thi hieu biet")?.Diem.ToString("0.##") ?? "";
+        txtDiemHoSo.Text = ketQua.ThanhPhan.FirstOrDefault(x => x.TenPhanThi == "Phan thi gioi thieu giang vien va ho so bai")?.Diem.ToString("0.##") ?? "";
+        txtDiemThucHanh.Text = ketQua.ThanhPhan.FirstOrDefault(x => x.TenPhanThi.StartsWith("Phan thuc hanh"))?.Diem.ToString("0.##") ?? "";
     }
 
     private void gridHoiGiang_CellContentClick(object sender, DataGridViewCellEventArgs e)
