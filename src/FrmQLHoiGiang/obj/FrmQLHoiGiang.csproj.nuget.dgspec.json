@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\Lap trinh\\BTL_LTMT_A5_done\\src\\FrmQLHoiGiang\\FrmQLHoiGiang.csproj": {}
+    "D:\\Desktop\\Lap-trinh\\BTL_LTMT_A5_done\\src\\FrmQLHoiGiang\\FrmQLHoiGiang.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\Lap trinh\\BTL_LTMT_A5_done\\src\\FrmQLHoiGiang\\FrmQLHoiGiang.csproj": {
+    "D:\\Desktop\\Lap-trinh\\BTL_LTMT_A5_done\\src\\FrmQLHoiGiang\\FrmQLHoiGiang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Lap trinh\\BTL_LTMT_A5_done\\src\\FrmQLHoiGiang\\FrmQLHoiGiang.csproj",
+        "projectUniqueName": "D:\\Desktop\\Lap-trinh\\BTL_LTMT_A5_done\\src\\FrmQLHoiGiang\\FrmQLHoiGiang.csproj",
         "projectName": "FrmQLHoiGiang",
-        "projectPath": "D:\\Desktop\\Lap trinh\\BTL_LTMT_A5_done\\src\\FrmQLHoiGiang\\FrmQLHoiGiang.csproj",
+        "projectPath": "D:\\Desktop\\Lap-trinh\\BTL_LTMT_A5_done\\src\\FrmQLHoiGiang\\FrmQLHoiGiang.csproj",
         "packagesPath": "C:\\Users\\zbook\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Lap trinh\\BTL_LTMT_A5_done\\src\\FrmQLHoiGiang\\obj\\",
+        "outputPath": "D:\\Desktop\\Lap-trinh\\BTL_LTMT_A5_done\\src\\FrmQLHoiGiang\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Lap trinh\\Studio code shared\\NuGetPackages"

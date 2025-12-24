@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrmQLHoiGiang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f01ce718ea0d8ea0a3d1d70d4e9b6e4cb3882ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrmQLHoiGiang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrmQLHoiGiang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
