@@ -6,3 +6,5 @@
 *.suo
 *.userosscache
 *.sln.docstates
+/src/FrmQLHoiGiang/obj/Debug/net8.0-windows/FrmQLHoiGiang.AssemblyInfoInputs.cache
+/src/FrmQLHoiGiang/obj/Debug/net8.0-windows/FrmQLHoiGiang.AssemblyInfo.cs
