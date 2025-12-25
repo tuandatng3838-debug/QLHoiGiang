@@ -111,7 +111,7 @@ CREATE TABLE BaiHoiGiang (
     HocPhanId INT REFERENCES HocPhan(HocPhanId),
     LopThucHien NVARCHAR(100),
     ThoiGian DATETIME NOT NULL,
-    CapThucHien NVARCHAR(20) NOT NULL CHECK (CapThucHien IN (N'Học viện', N'Bộ')),
+    CapThucHien NVARCHAR(20) NOT NULL CHECK (CapThucHien IN (N'Học viện', N'Bộ', N'Khoa')),
     TrangThai NVARCHAR(30) NOT NULL DEFAULT N'Chưa chấm'
 );
 
