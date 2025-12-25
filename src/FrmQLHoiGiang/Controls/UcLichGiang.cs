@@ -153,8 +153,8 @@ public partial class UcLichGiang : UserControl
         cboBuoi.SelectedIndex = 0;
         dtNgayHoc.Value = DateTime.Today;
         txtPhong.Text = string.Empty;
-        txtSoTiet.Text = "3";
-        txtSiSo.Text = "40";
+        txtSoTiet.Text = "4";
+        txtSiSo.Text = "";
         btnHuy.Visible = false;
         btnLuu.FillColor = Color.FromArgb(31, 122, 224);
         btnLuu.Text = "Thêm mới";
