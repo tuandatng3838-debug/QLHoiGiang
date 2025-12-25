@@ -91,7 +91,7 @@ partial class UcBaoCao
         btnTaiBaoCao.Location = new Point(247, 22);
         btnTaiBaoCao.Margin = new Padding(3, 4, 3, 4);
         btnTaiBaoCao.Name = "btnTaiBaoCao";
-        btnTaiBaoCao.Size = new Size(137, 54);
+        btnTaiBaoCao.Size = new Size(213, 54);
         btnTaiBaoCao.TabIndex = 1;
         btnTaiBaoCao.Text = "Tải báo cáo";
         btnTaiBaoCao.Click += btnTaiBaoCao_Click;
@@ -128,11 +128,11 @@ partial class UcBaoCao
         // tabTiet
         // 
         tabTiet.Controls.Add(tableLayoutTiet);
-        tabTiet.Location = new Point(4, 29);
+        tabTiet.Location = new Point(4, 24);
         tabTiet.Margin = new Padding(3, 4, 3, 4);
         tabTiet.Name = "tabTiet";
         tabTiet.Padding = new Padding(9, 10, 9, 10);
-        tabTiet.Size = new Size(1729, 703);
+        tabTiet.Size = new Size(1729, 708);
         tabTiet.TabIndex = 0;
         tabTiet.Text = "Tiết";
         tabTiet.UseVisualStyleBackColor = true;
@@ -150,7 +150,7 @@ partial class UcBaoCao
         tableLayoutTiet.Name = "tableLayoutTiet";
         tableLayoutTiet.RowCount = 1;
         tableLayoutTiet.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-        tableLayoutTiet.Size = new Size(1711, 683);
+        tableLayoutTiet.Size = new Size(1711, 688);
         tableLayoutTiet.TabIndex = 2;
         // 
         // gridTietGV
@@ -185,7 +185,7 @@ partial class UcBaoCao
         gridTietGV.RowHeadersVisible = false;
         gridTietGV.RowHeadersWidth = 62;
         gridTietGV.RowTemplate.Height = 32;
-        gridTietGV.Size = new Size(849, 675);
+        gridTietGV.Size = new Size(849, 680);
         gridTietGV.TabIndex = 0;
         gridTietGV.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
         gridTietGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -242,7 +242,7 @@ partial class UcBaoCao
         gridTietKhoa.RowHeadersVisible = false;
         gridTietKhoa.RowHeadersWidth = 62;
         gridTietKhoa.RowTemplate.Height = 32;
-        gridTietKhoa.Size = new Size(850, 675);
+        gridTietKhoa.Size = new Size(850, 680);
         gridTietKhoa.TabIndex = 1;
         gridTietKhoa.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
         gridTietKhoa.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -269,11 +269,11 @@ partial class UcBaoCao
         // tabSangKien
         // 
         tabSangKien.Controls.Add(gridSangKien);
-        tabSangKien.Location = new Point(4, 29);
+        tabSangKien.Location = new Point(4, 24);
         tabSangKien.Margin = new Padding(3, 4, 3, 4);
         tabSangKien.Name = "tabSangKien";
         tabSangKien.Padding = new Padding(9, 10, 9, 10);
-        tabSangKien.Size = new Size(1729, 703);
+        tabSangKien.Size = new Size(1729, 708);
         tabSangKien.TabIndex = 1;
         tabSangKien.Text = "Sáng kiến";
         tabSangKien.UseVisualStyleBackColor = true;
@@ -310,7 +310,7 @@ partial class UcBaoCao
         gridSangKien.RowHeadersVisible = false;
         gridSangKien.RowHeadersWidth = 62;
         gridSangKien.RowTemplate.Height = 32;
-        gridSangKien.Size = new Size(1711, 683);
+        gridSangKien.Size = new Size(1711, 688);
         gridSangKien.TabIndex = 0;
         gridSangKien.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
         gridSangKien.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -337,11 +337,11 @@ partial class UcBaoCao
         // tabGiaiThuong
         // 
         tabGiaiThuong.Controls.Add(gridGiaiThuong);
-        tabGiaiThuong.Location = new Point(4, 29);
+        tabGiaiThuong.Location = new Point(4, 24);
         tabGiaiThuong.Margin = new Padding(3, 4, 3, 4);
         tabGiaiThuong.Name = "tabGiaiThuong";
         tabGiaiThuong.Padding = new Padding(9, 10, 9, 10);
-        tabGiaiThuong.Size = new Size(1729, 703);
+        tabGiaiThuong.Size = new Size(1729, 708);
         tabGiaiThuong.TabIndex = 2;
         tabGiaiThuong.Text = "Giải thưởng";
         tabGiaiThuong.UseVisualStyleBackColor = true;
@@ -378,7 +378,7 @@ partial class UcBaoCao
         gridGiaiThuong.RowHeadersVisible = false;
         gridGiaiThuong.RowHeadersWidth = 62;
         gridGiaiThuong.RowTemplate.Height = 32;
-        gridGiaiThuong.Size = new Size(1711, 683);
+        gridGiaiThuong.Size = new Size(1711, 688);
         gridGiaiThuong.TabIndex = 0;
         gridGiaiThuong.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
         gridGiaiThuong.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -405,11 +405,11 @@ partial class UcBaoCao
         // tabHoiDong
         // 
         tabHoiDong.Controls.Add(gridHoiDong);
-        tabHoiDong.Location = new Point(4, 29);
+        tabHoiDong.Location = new Point(4, 24);
         tabHoiDong.Margin = new Padding(3, 4, 3, 4);
         tabHoiDong.Name = "tabHoiDong";
         tabHoiDong.Padding = new Padding(9, 10, 9, 10);
-        tabHoiDong.Size = new Size(1729, 703);
+        tabHoiDong.Size = new Size(1729, 708);
         tabHoiDong.TabIndex = 3;
         tabHoiDong.Text = "Hội đồng";
         tabHoiDong.UseVisualStyleBackColor = true;
@@ -446,7 +446,7 @@ partial class UcBaoCao
         gridHoiDong.RowHeadersVisible = false;
         gridHoiDong.RowHeadersWidth = 62;
         gridHoiDong.RowTemplate.Height = 32;
-        gridHoiDong.Size = new Size(1711, 683);
+        gridHoiDong.Size = new Size(1711, 688);
         gridHoiDong.TabIndex = 0;
         gridHoiDong.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
         gridHoiDong.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -473,11 +473,11 @@ partial class UcBaoCao
         // tabHoiGiang
         // 
         tabHoiGiang.Controls.Add(gridHoiGiang);
-        tabHoiGiang.Location = new Point(4, 29);
+        tabHoiGiang.Location = new Point(4, 24);
         tabHoiGiang.Margin = new Padding(3, 4, 3, 4);
         tabHoiGiang.Name = "tabHoiGiang";
         tabHoiGiang.Padding = new Padding(9, 10, 9, 10);
-        tabHoiGiang.Size = new Size(1729, 703);
+        tabHoiGiang.Size = new Size(1729, 708);
         tabHoiGiang.TabIndex = 4;
         tabHoiGiang.Text = "Hội giảng";
         tabHoiGiang.UseVisualStyleBackColor = true;
@@ -514,7 +514,7 @@ partial class UcBaoCao
         gridHoiGiang.RowHeadersVisible = false;
         gridHoiGiang.RowHeadersWidth = 62;
         gridHoiGiang.RowTemplate.Height = 32;
-        gridHoiGiang.Size = new Size(1711, 683);
+        gridHoiGiang.Size = new Size(1711, 688);
         gridHoiGiang.TabIndex = 0;
         gridHoiGiang.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
         gridHoiGiang.ThemeStyle.AlternatingRowsStyle.Font = null;

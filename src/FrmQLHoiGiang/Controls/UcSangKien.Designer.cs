@@ -27,6 +27,12 @@ partial class UcSangKien
         colNamHoc = new DataGridViewTextBoxColumn();
         colLoai = new DataGridViewTextBoxColumn();
         panelRight = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+        label4 = new Label();
+        label3 = new Label();
+        label2 = new Label();
+        label1 = new Label();
+        label10 = new Label();
+        labelDetail = new Label();
         cboXepLoai = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
         txtDiaDiem = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
         txtThoiGian = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
@@ -47,7 +53,6 @@ partial class UcSangKien
         panelLeft = new Siticone.Desktop.UI.WinForms.SiticonePanel();
         dialog = new Siticone.Desktop.UI.WinForms.SiticoneMessageDialog();
         layoutMain = new TableLayoutPanel();
-        labelDetail = new Label();
         ((System.ComponentModel.ISupportInitialize)gridSangKien).BeginInit();
         panelRight.SuspendLayout();
         panelLeft.SuspendLayout();
@@ -151,6 +156,11 @@ partial class UcSangKien
         panelRight.AutoScroll = true;
         panelRight.BackColor = Color.White;
         panelRight.BorderRadius = 12;
+        panelRight.Controls.Add(label4);
+        panelRight.Controls.Add(label3);
+        panelRight.Controls.Add(label2);
+        panelRight.Controls.Add(label1);
+        panelRight.Controls.Add(label10);
         panelRight.Controls.Add(labelDetail);
         panelRight.Controls.Add(cboXepLoai);
         panelRight.Controls.Add(txtDiaDiem);
@@ -177,6 +187,73 @@ partial class UcSangKien
         panelRight.TabIndex = 1;
         panelRight.Paint += panelRight_Paint;
         // 
+        // label4
+        // 
+        label4.AutoSize = true;
+        label4.BackColor = Color.WhiteSmoke;
+        label4.Font = new Font("Segoe UI", 16F);
+        label4.Location = new Point(26, 644);
+        label4.Name = "label4";
+        label4.Size = new Size(59, 30);
+        label4.TabIndex = 37;
+        label4.Text = "Năm";
+        // 
+        // label3
+        // 
+        label3.AutoSize = true;
+        label3.BackColor = Color.WhiteSmoke;
+        label3.Font = new Font("Segoe UI", 16F);
+        label3.Location = new Point(23, 523);
+        label3.Name = "label3";
+        label3.Size = new Size(92, 30);
+        label3.TabIndex = 36;
+        label3.Text = "Lĩnh vực";
+        // 
+        // label2
+        // 
+        label2.AutoSize = true;
+        label2.BackColor = Color.WhiteSmoke;
+        label2.Font = new Font("Segoe UI", 16F);
+        label2.Location = new Point(23, 468);
+        label2.Name = "label2";
+        label2.Size = new Size(91, 30);
+        label2.TabIndex = 35;
+        label2.Text = "Xếp loại";
+        // 
+        // label1
+        // 
+        label1.AutoSize = true;
+        label1.BackColor = Color.WhiteSmoke;
+        label1.Font = new Font("Segoe UI", 16F);
+        label1.Location = new Point(21, 424);
+        label1.Name = "label1";
+        label1.Size = new Size(93, 30);
+        label1.TabIndex = 34;
+        label1.Text = "Tư cách ";
+        // 
+        // label10
+        // 
+        label10.AutoSize = true;
+        label10.BackColor = Color.WhiteSmoke;
+        label10.Font = new Font("Segoe UI", 16F);
+        label10.Location = new Point(21, 147);
+        label10.Name = "label10";
+        label10.Size = new Size(211, 30);
+        label10.TabIndex = 33;
+        label10.Text = "Thông tin giảng viên";
+        // 
+        // labelDetail
+        // 
+        labelDetail.AutoSize = true;
+        labelDetail.BackColor = Color.WhiteSmoke;
+        labelDetail.Font = new Font("Segoe UI Semibold", 22F, FontStyle.Bold);
+        labelDetail.Location = new Point(21, 21);
+        labelDetail.Name = "labelDetail";
+        labelDetail.Size = new Size(306, 41);
+        labelDetail.TabIndex = 15;
+        labelDetail.Text = "THÔNG TIN CHI TIẾT";
+        labelDetail.Click += labelDetail_Click;
+        // 
         // cboXepLoai
         // 
         cboXepLoai.BackColor = Color.Transparent;
@@ -188,7 +265,7 @@ partial class UcSangKien
         cboXepLoai.ForeColor = Color.FromArgb(68, 88, 112);
         cboXepLoai.ItemHeight = 30;
         cboXepLoai.Items.AddRange(new object[] { "Khá", "Tốt", "Xuất sắc" });
-        cboXepLoai.Location = new Point(21, 752);
+        cboXepLoai.Location = new Point(18, 791);
         cboXepLoai.Margin = new Padding(3, 4, 3, 4);
         cboXepLoai.Name = "cboXepLoai";
         cboXepLoai.Size = new Size(319, 36);
@@ -199,7 +276,7 @@ partial class UcSangKien
         txtDiaDiem.BorderRadius = 8;
         txtDiaDiem.DefaultText = "";
         txtDiaDiem.Font = new Font("Segoe UI", 16F);
-        txtDiaDiem.Location = new Point(21, 680);
+        txtDiaDiem.Location = new Point(18, 718);
         txtDiaDiem.Margin = new Padding(3, 5, 3, 5);
         txtDiaDiem.Name = "txtDiaDiem";
         txtDiaDiem.PasswordChar = '\0';
@@ -213,7 +290,7 @@ partial class UcSangKien
         txtThoiGian.BorderRadius = 8;
         txtThoiGian.DefaultText = "";
         txtThoiGian.Font = new Font("Segoe UI", 16F);
-        txtThoiGian.Location = new Point(21, 609);
+        txtThoiGian.Location = new Point(26, 558);
         txtThoiGian.Margin = new Padding(3, 5, 3, 5);
         txtThoiGian.Name = "txtThoiGian";
         txtThoiGian.PasswordChar = '\0';
@@ -227,13 +304,13 @@ partial class UcSangKien
         txtNamHoc.BorderRadius = 8;
         txtNamHoc.DefaultText = "";
         txtNamHoc.Font = new Font("Segoe UI", 16F);
-        txtNamHoc.Location = new Point(21, 538);
+        txtNamHoc.Location = new Point(130, 628);
         txtNamHoc.Margin = new Padding(3, 5, 3, 5);
         txtNamHoc.Name = "txtNamHoc";
         txtNamHoc.PasswordChar = '\0';
         txtNamHoc.PlaceholderText = "Năm học";
         txtNamHoc.SelectedText = "";
-        txtNamHoc.Size = new Size(192, 60);
+        txtNamHoc.Size = new Size(302, 60);
         txtNamHoc.TabIndex = 7;
         // 
         // txtLinhVuc
@@ -241,13 +318,13 @@ partial class UcSangKien
         txtLinhVuc.BorderRadius = 8;
         txtLinhVuc.DefaultText = "";
         txtLinhVuc.Font = new Font("Segoe UI", 16F);
-        txtLinhVuc.Location = new Point(21, 468);
+        txtLinhVuc.Location = new Point(140, 513);
         txtLinhVuc.Margin = new Padding(3, 5, 3, 5);
         txtLinhVuc.Name = "txtLinhVuc";
         txtLinhVuc.PasswordChar = '\0';
         txtLinhVuc.PlaceholderText = "Lĩnh vực";
         txtLinhVuc.SelectedText = "";
-        txtLinhVuc.Size = new Size(411, 60);
+        txtLinhVuc.Size = new Size(297, 40);
         txtLinhVuc.TabIndex = 6;
         // 
         // cboLoai
@@ -261,10 +338,10 @@ partial class UcSangKien
         cboLoai.ForeColor = Color.FromArgb(68, 88, 112);
         cboLoai.ItemHeight = 30;
         cboLoai.Items.AddRange(new object[] { "Sáng kiến", "Cải tiến" });
-        cboLoai.Location = new Point(254, 406);
+        cboLoai.Location = new Point(140, 468);
         cboLoai.Margin = new Padding(3, 4, 3, 4);
         cboLoai.Name = "cboLoai";
-        cboLoai.Size = new Size(178, 36);
+        cboLoai.Size = new Size(292, 36);
         cboLoai.TabIndex = 5;
         // 
         // cboTuCach
@@ -278,10 +355,10 @@ partial class UcSangKien
         cboTuCach.ForeColor = Color.FromArgb(68, 88, 112);
         cboTuCach.ItemHeight = 30;
         cboTuCach.Items.AddRange(new object[] { "Tác giả", "Đồng tác giả" });
-        cboTuCach.Location = new Point(21, 406);
+        cboTuCach.Location = new Point(135, 424);
         cboTuCach.Margin = new Padding(3, 4, 3, 4);
         cboTuCach.Name = "cboTuCach";
-        cboTuCach.Size = new Size(205, 36);
+        cboTuCach.Size = new Size(297, 36);
         cboTuCach.TabIndex = 4;
         // 
         // cboGiangVien
@@ -294,7 +371,7 @@ partial class UcSangKien
         cboGiangVien.Font = new Font("Segoe UI", 16F);
         cboGiangVien.ForeColor = Color.FromArgb(68, 88, 112);
         cboGiangVien.ItemHeight = 30;
-        cboGiangVien.Location = new Point(21, 152);
+        cboGiangVien.Location = new Point(21, 177);
         cboGiangVien.Margin = new Padding(3, 4, 3, 4);
         cboGiangVien.Name = "cboGiangVien";
         cboGiangVien.Size = new Size(411, 36);
@@ -305,7 +382,7 @@ partial class UcSangKien
         txtGiangVienNgaySinh.BorderRadius = 8;
         txtGiangVienNgaySinh.DefaultText = "";
         txtGiangVienNgaySinh.Font = new Font("Segoe UI", 16F);
-        txtGiangVienNgaySinh.Location = new Point(21, 340);
+        txtGiangVienNgaySinh.Location = new Point(21, 365);
         txtGiangVienNgaySinh.Margin = new Padding(3, 5, 3, 5);
         txtGiangVienNgaySinh.Name = "txtGiangVienNgaySinh";
         txtGiangVienNgaySinh.PasswordChar = '\0';
@@ -320,7 +397,7 @@ partial class UcSangKien
         txtGiangVienDienThoai.BorderRadius = 8;
         txtGiangVienDienThoai.DefaultText = "";
         txtGiangVienDienThoai.Font = new Font("Segoe UI", 16F);
-        txtGiangVienDienThoai.Location = new Point(21, 274);
+        txtGiangVienDienThoai.Location = new Point(21, 299);
         txtGiangVienDienThoai.Margin = new Padding(3, 5, 3, 5);
         txtGiangVienDienThoai.Name = "txtGiangVienDienThoai";
         txtGiangVienDienThoai.PasswordChar = '\0';
@@ -335,7 +412,7 @@ partial class UcSangKien
         txtGiangVienEmail.BorderRadius = 8;
         txtGiangVienEmail.DefaultText = "";
         txtGiangVienEmail.Font = new Font("Segoe UI", 16F);
-        txtGiangVienEmail.Location = new Point(21, 208);
+        txtGiangVienEmail.Location = new Point(21, 233);
         txtGiangVienEmail.Margin = new Padding(3, 5, 3, 5);
         txtGiangVienEmail.Name = "txtGiangVienEmail";
         txtGiangVienEmail.PasswordChar = '\0';
@@ -365,7 +442,7 @@ partial class UcSangKien
         btnXoa.FillColor = Color.FromArgb(250, 60, 76);
         btnXoa.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
         btnXoa.ForeColor = Color.White;
-        btnXoa.Location = new Point(202, 826);
+        btnXoa.Location = new Point(199, 849);
         btnXoa.Margin = new Padding(3, 4, 3, 4);
         btnXoa.Name = "btnXoa";
         btnXoa.Size = new Size(160, 60);
@@ -379,7 +456,7 @@ partial class UcSangKien
         btnHuy.FillColor = Color.Gray;
         btnHuy.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
         btnHuy.ForeColor = Color.White;
-        btnHuy.Location = new Point(374, 826);
+        btnHuy.Location = new Point(371, 849);
         btnHuy.Margin = new Padding(3, 4, 3, 4);
         btnHuy.Name = "btnHuy";
         btnHuy.Size = new Size(160, 60);
@@ -394,7 +471,7 @@ partial class UcSangKien
         btnLuu.FillColor = Color.FromArgb(31, 122, 224);
         btnLuu.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
         btnLuu.ForeColor = Color.White;
-        btnLuu.Location = new Point(21, 826);
+        btnLuu.Location = new Point(18, 849);
         btnLuu.Margin = new Padding(3, 4, 3, 4);
         btnLuu.Name = "btnLuu";
         btnLuu.Size = new Size(160, 60);
@@ -472,17 +549,6 @@ partial class UcSangKien
         layoutMain.Size = new Size(1889, 1000);
         layoutMain.TabIndex = 4;
         // 
-        // labelDetail
-        // 
-        labelDetail.AutoSize = true;
-        labelDetail.Font = new Font("Segoe UI Semibold", 22F, FontStyle.Bold);
-        labelDetail.Location = new Point(21, 21);
-        labelDetail.Name = "labelDetail";
-        labelDetail.Size = new Size(306, 41);
-        labelDetail.TabIndex = 15;
-        labelDetail.Text = "THÔNG TIN CHI TIẾT";
-        labelDetail.Click += labelDetail_Click;
-        // 
         // UcSangKien
         // 
         AutoScaleMode = AutoScaleMode.None;
@@ -529,4 +595,9 @@ partial class UcSangKien
     private DataGridViewTextBoxColumn colLoai;
     private TableLayoutPanel layoutMain;
     private Label labelDetail;
+    private Label label4;
+    private Label label3;
+    private Label label2;
+    private Label label1;
+    private Label label10;
 }
