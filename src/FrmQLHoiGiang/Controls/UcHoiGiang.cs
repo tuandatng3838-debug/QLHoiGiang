@@ -458,21 +458,21 @@ public partial class UcHoiGiang : UserControl
         var tong = hieuBiet + hoSo + thucHanh;
         txtTongDiem.Text = tong.ToString("0.##");
 
-        if (tong >= 95)
+        if (tong >= 25)
         {
-            txtXepLoai.Text = "Nhat";
+            txtXepLoai.Text = "Nhất";
         }
-        else if (tong >= 90)
+        else if (tong >= 22.5m)
         {
-            txtXepLoai.Text = "Nhi";
+            txtXepLoai.Text = "Nhì";
         }
-        else if (tong >= 80)
+        else if (tong >= 20)
         {
             txtXepLoai.Text = "Ba";
         }
         else
         {
-            txtXepLoai.Text = "Khuyen khich";
+            txtXepLoai.Text = "Khuyến khích";
         }
     }
 

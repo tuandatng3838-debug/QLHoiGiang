@@ -38,6 +38,7 @@ partial class UcBaoCao
         DataGridViewCellStyle dataGridViewCellStyle18 = new DataGridViewCellStyle();
         panelTop = new Siticone.Desktop.UI.WinForms.SiticonePanel();
         btnTaiBaoCao = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+        txtQuickFilter = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
         txtNamHoc = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
         tabBaoCao = new TabControl();
         tabTiet = new TabPage();
@@ -70,6 +71,7 @@ partial class UcBaoCao
         // 
         // panelTop
         // 
+        panelTop.Controls.Add(txtQuickFilter);
         panelTop.Controls.Add(btnTaiBaoCao);
         panelTop.Controls.Add(txtNamHoc);
         panelTop.Dock = DockStyle.Top;
@@ -95,6 +97,20 @@ partial class UcBaoCao
         btnTaiBaoCao.TabIndex = 1;
         btnTaiBaoCao.Text = "Tải báo cáo";
         btnTaiBaoCao.Click += btnTaiBaoCao_Click;
+        // 
+        // txtQuickFilter
+        // 
+        txtQuickFilter.BorderRadius = 8;
+        txtQuickFilter.DefaultText = "";
+        txtQuickFilter.Font = new Font("Segoe UI", 16F);
+        txtQuickFilter.Location = new Point(480, 22);
+        txtQuickFilter.Margin = new Padding(5, 6, 5, 6);
+        txtQuickFilter.Name = "txtQuickFilter";
+        txtQuickFilter.PasswordChar = '\0';
+        txtQuickFilter.PlaceholderText = "Loc nhanh";
+        txtQuickFilter.SelectedText = "";
+        txtQuickFilter.Size = new Size(300, 54);
+        txtQuickFilter.TabIndex = 2;
         // 
         // txtNamHoc
         // 
@@ -567,6 +583,7 @@ partial class UcBaoCao
 
     private Siticone.Desktop.UI.WinForms.SiticonePanel panelTop;
     private Siticone.Desktop.UI.WinForms.SiticoneButton btnTaiBaoCao;
+    private Siticone.Desktop.UI.WinForms.SiticoneTextBox txtQuickFilter;
     private Siticone.Desktop.UI.WinForms.SiticoneTextBox txtNamHoc;
     private TabControl tabBaoCao;
     private TabPage tabTiet;
