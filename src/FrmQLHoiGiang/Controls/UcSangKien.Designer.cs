@@ -18,9 +18,9 @@ partial class UcSangKien
 
     private void InitializeComponent()
     {
-        DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-        DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-        DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+        DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+        DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+        DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
         gridSangKien = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
         colTenSangKien = new DataGridViewTextBoxColumn();
         colGiangVien = new DataGridViewTextBoxColumn();
@@ -53,6 +53,7 @@ partial class UcSangKien
         panelLeft = new Siticone.Desktop.UI.WinForms.SiticonePanel();
         dialog = new Siticone.Desktop.UI.WinForms.SiticoneMessageDialog();
         layoutMain = new TableLayoutPanel();
+        label5 = new Label();
         ((System.ComponentModel.ISupportInitialize)gridSangKien).BeginInit();
         panelRight.SuspendLayout();
         panelLeft.SuspendLayout();
@@ -63,28 +64,28 @@ partial class UcSangKien
         // 
         gridSangKien.AllowUserToAddRows = false;
         gridSangKien.AllowUserToDeleteRows = false;
-        dataGridViewCellStyle4.BackColor = Color.White;
-        gridSangKien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+        dataGridViewCellStyle1.BackColor = Color.White;
+        gridSangKien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
         gridSangKien.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
         gridSangKien.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Sunken;
-        dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
-        dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
-        dataGridViewCellStyle5.Font = new Font("Segoe UI", 16F);
-        dataGridViewCellStyle5.ForeColor = Color.White;
-        dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
-        dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
-        dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-        gridSangKien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+        dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+        dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
+        dataGridViewCellStyle2.Font = new Font("Segoe UI", 16F);
+        dataGridViewCellStyle2.ForeColor = Color.White;
+        dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+        dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+        dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+        gridSangKien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
         gridSangKien.ColumnHeadersHeight = 45;
         gridSangKien.Columns.AddRange(new DataGridViewColumn[] { colTenSangKien, colGiangVien, colNamHoc, colLoai });
-        dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
-        dataGridViewCellStyle6.BackColor = Color.White;
-        dataGridViewCellStyle6.Font = new Font("Segoe UI", 16F);
-        dataGridViewCellStyle6.ForeColor = Color.FromArgb(71, 69, 94);
-        dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
-        dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
-        dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
-        gridSangKien.DefaultCellStyle = dataGridViewCellStyle6;
+        dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+        dataGridViewCellStyle3.BackColor = Color.White;
+        dataGridViewCellStyle3.Font = new Font("Segoe UI", 16F);
+        dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
+        dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
+        dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
+        dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+        gridSangKien.DefaultCellStyle = dataGridViewCellStyle3;
         gridSangKien.GridColor = Color.FromArgb(231, 229, 255);
         gridSangKien.Location = new Point(13, 82);
         gridSangKien.Margin = new Padding(3, 4, 3, 4);
@@ -156,6 +157,7 @@ partial class UcSangKien
         panelRight.AutoScroll = true;
         panelRight.BackColor = Color.White;
         panelRight.BorderRadius = 12;
+        panelRight.Controls.Add(label5);
         panelRight.Controls.Add(label4);
         panelRight.Controls.Add(label3);
         panelRight.Controls.Add(label2);
@@ -265,7 +267,7 @@ partial class UcSangKien
         cboXepLoai.ForeColor = Color.FromArgb(68, 88, 112);
         cboXepLoai.ItemHeight = 30;
         cboXepLoai.Items.AddRange(new object[] { "Khá", "Tốt", "Xuất sắc" });
-        cboXepLoai.Location = new Point(18, 791);
+        cboXepLoai.Location = new Point(18, 824);
         cboXepLoai.Margin = new Padding(3, 4, 3, 4);
         cboXepLoai.Name = "cboXepLoai";
         cboXepLoai.Size = new Size(319, 36);
@@ -442,7 +444,7 @@ partial class UcSangKien
         btnXoa.FillColor = Color.FromArgb(250, 60, 76);
         btnXoa.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
         btnXoa.ForeColor = Color.White;
-        btnXoa.Location = new Point(199, 849);
+        btnXoa.Location = new Point(199, 882);
         btnXoa.Margin = new Padding(3, 4, 3, 4);
         btnXoa.Name = "btnXoa";
         btnXoa.Size = new Size(160, 60);
@@ -456,7 +458,7 @@ partial class UcSangKien
         btnHuy.FillColor = Color.Gray;
         btnHuy.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
         btnHuy.ForeColor = Color.White;
-        btnHuy.Location = new Point(371, 849);
+        btnHuy.Location = new Point(371, 882);
         btnHuy.Margin = new Padding(3, 4, 3, 4);
         btnHuy.Name = "btnHuy";
         btnHuy.Size = new Size(160, 60);
@@ -471,7 +473,7 @@ partial class UcSangKien
         btnLuu.FillColor = Color.FromArgb(31, 122, 224);
         btnLuu.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
         btnLuu.ForeColor = Color.White;
-        btnLuu.Location = new Point(18, 849);
+        btnLuu.Location = new Point(18, 882);
         btnLuu.Margin = new Padding(3, 4, 3, 4);
         btnLuu.Name = "btnLuu";
         btnLuu.Size = new Size(160, 60);
@@ -549,6 +551,17 @@ partial class UcSangKien
         layoutMain.Size = new Size(1889, 1000);
         layoutMain.TabIndex = 4;
         // 
+        // label5
+        // 
+        label5.AutoSize = true;
+        label5.BackColor = Color.WhiteSmoke;
+        label5.Font = new Font("Segoe UI", 16F);
+        label5.Location = new Point(26, 783);
+        label5.Name = "label5";
+        label5.Size = new Size(91, 30);
+        label5.TabIndex = 38;
+        label5.Text = "Xếp loại";
+        // 
         // UcSangKien
         // 
         AutoScaleMode = AutoScaleMode.None;
@@ -600,4 +613,5 @@ partial class UcSangKien
     private Label label2;
     private Label label1;
     private Label label10;
+    private Label label5;
 }

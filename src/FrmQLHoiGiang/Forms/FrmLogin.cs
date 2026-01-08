@@ -52,4 +52,9 @@ public partial class FrmLogin : Form
     {
 
     }
+
+    private void label3_Click(object sender, EventArgs e)
+    {
+
+    }
 }

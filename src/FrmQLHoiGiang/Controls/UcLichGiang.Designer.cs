@@ -35,6 +35,7 @@ partial class UcLichGiang
         colMon = new DataGridViewTextBoxColumn();
         colLop = new DataGridViewTextBoxColumn();
         panelRight = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+        label2 = new Label();
         label1 = new Label();
         label12 = new Label();
         labelDetail = new Label();
@@ -58,7 +59,6 @@ partial class UcLichGiang
         btnHuy = new Siticone.Desktop.UI.WinForms.SiticoneButton();
         btnLuu = new Siticone.Desktop.UI.WinForms.SiticoneButton();
         dialog = new Siticone.Desktop.UI.WinForms.SiticoneMessageDialog();
-        label2 = new Label();
         layoutMain.SuspendLayout();
         panelLeft.SuspendLayout();
         ((System.ComponentModel.ISupportInitialize)gridLichGiang).BeginInit();
@@ -212,7 +212,7 @@ partial class UcLichGiang
         dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
         gridLichGiang.DefaultCellStyle = dataGridViewCellStyle3;
         gridLichGiang.GridColor = Color.FromArgb(231, 229, 255);
-        gridLichGiang.Location = new Point(13, 59);
+        gridLichGiang.Location = new Point(13, 86);
         gridLichGiang.Margin = new Padding(3, 4, 3, 4);
         gridLichGiang.MultiSelect = false;
         gridLichGiang.Name = "gridLichGiang";
@@ -220,7 +220,7 @@ partial class UcLichGiang
         gridLichGiang.RowHeadersVisible = false;
         gridLichGiang.RowHeadersWidth = 62;
         gridLichGiang.RowTemplate.Height = 32;
-        gridLichGiang.Size = new Size(1139, 742);
+        gridLichGiang.Size = new Size(1139, 715);
         gridLichGiang.TabIndex = 0;
         gridLichGiang.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
         gridLichGiang.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -313,6 +313,16 @@ partial class UcLichGiang
         panelRight.Size = new Size(477, 899);
         panelRight.TabIndex = 1;
         panelRight.Paint += panelRight_Paint;
+        // 
+        // label2
+        // 
+        label2.AutoSize = true;
+        label2.Font = new Font("Segoe UI", 16F);
+        label2.Location = new Point(24, 240);
+        label2.Name = "label2";
+        label2.Size = new Size(58, 30);
+        label2.TabIndex = 42;
+        label2.Text = "Môn";
         // 
         // label1
         // 
@@ -637,16 +647,6 @@ partial class UcLichGiang
         dialog.Parent = null;
         dialog.Style = Siticone.Desktop.UI.WinForms.MessageDialogStyle.Light;
         dialog.Text = "message";
-        // 
-        // label2
-        // 
-        label2.AutoSize = true;
-        label2.Font = new Font("Segoe UI", 16F);
-        label2.Location = new Point(24, 240);
-        label2.Name = "label2";
-        label2.Size = new Size(58, 30);
-        label2.TabIndex = 42;
-        label2.Text = "Môn";
         // 
         // UcLichGiang
         // 

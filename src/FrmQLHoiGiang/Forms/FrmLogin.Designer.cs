@@ -72,7 +72,7 @@ partial class FrmLogin
         // pictureBox1
         // 
         pictureBox1.Image = Properties.Resources.logot01;
-        pictureBox1.Location = new Point(43, 0);
+        pictureBox1.Location = new Point(43, 43);
         pictureBox1.Name = "pictureBox1";
         pictureBox1.Size = new Size(291, 179);
         pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -114,22 +114,23 @@ partial class FrmLogin
         label3.AutoSize = true;
         label3.Font = new Font("Segoe UI", 16F);
         label3.ForeColor = Color.FromArgb(64, 64, 64);
-        label3.Location = new Point(64, 231);
+        label3.Location = new Point(68, 258);
         label3.Name = "label3";
         label3.Size = new Size(405, 30);
         label3.TabIndex = 2;
         label3.Text = "Quản lý hội giảng, sáng kiến và thống kê";
+        label3.Click += label3_Click;
         // 
         // label2
         // 
         label2.AutoSize = true;
         label2.Font = new Font("Segoe UI Semibold", 20F, FontStyle.Bold);
         label2.ForeColor = Color.FromArgb(31, 122, 224);
-        label2.Location = new Point(84, 182);
+        label2.Location = new Point(84, 225);
         label2.Name = "label2";
-        label2.Size = new Size(354, 37);
+        label2.Size = new Size(349, 37);
         label2.TabIndex = 1;
-        label2.Text = " An ninh Nhân dân";
+        label2.Text = "Học viện An ninh nhân dân";
         label2.Click += label2_Click;
         // 
         // panelLogin
@@ -151,11 +152,11 @@ partial class FrmLogin
         // label1
         // 
         label1.AutoSize = true;
-        label1.Font = new Font("Segoe UI Semibold", 14F, FontStyle.Bold);
+        label1.Font = new Font("Segoe UI Semibold", 20F, FontStyle.Bold);
         label1.ForeColor = Color.FromArgb(31, 122, 224);
         label1.Location = new Point(24, 24);
         label1.Name = "label1";
-        label1.Size = new Size(106, 25);
+        label1.Size = new Size(151, 37);
         label1.TabIndex = 3;
         label1.Text = "Đăng nhập";
         // 
